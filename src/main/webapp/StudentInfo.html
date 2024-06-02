@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<form action="StudentServlet" method="post">
+	Student Name : <input type="text" name="SName"> <br> <br>
+	
+	
+	Gender : <input type="radio" id="male" name="gender" value="male">Male
+  	<input type="radio" id="female" name="gender" value="female">Female <br><br>
+  	
+  	
+  	 Hobby : <input type="checkbox" id="whatsapp" name="hobby" value="whatsapp"> Whatsapp
+  	 <input type="checkbox" id="insta" name="hobby" value="insta">Instagram
+  	 <input type="checkbox" id="thread" name="hobby" value="thread">Thread <br><br>
+  
+	City : <select id="city" name="city">
+	<option value="ahmedabad" id="ahmedabad">Ahmedabad</option>
+    <option value="surat" id="surat">Surat</option> 
+    <option value="baroda" id="baroda">Baroda</option>
+    <option value="rajkot" id="rajkot">Rajkot</option> 
+  </select> <br> <br>
+  
+  	Address : <textarea rows="5" cols="30" id="address" name="address"></textarea> <br><br>
+	<input type="submit" value="Convert">
+</form>
+
+</body>
+</html>
